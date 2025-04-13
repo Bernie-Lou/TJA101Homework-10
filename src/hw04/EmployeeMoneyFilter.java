@@ -38,7 +38,7 @@ public class EmployeeMoneyFilter {
             System.out.println("輸入錯誤");
         }
         
-        // 關閉Scanner
+        //關閉Scanner  
         scanner.close();
     }
 }

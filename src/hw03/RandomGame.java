@@ -16,7 +16,8 @@ public class RandomGame {
 				break;
 			}
 			System.out.println("猜錯喽!");
+		
 		}
-
 	}
+	
 }

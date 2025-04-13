@@ -12,7 +12,7 @@ public class YearCalculator {
 	        while (true) {
 	            if (scanner.hasNextInt()) {
 	                year = scanner.nextInt();
-	                scanner.nextLine(); // 清除輸入緩衝區
+	                scanner.nextLine(); // 清除輸入緩衝區,跳下一個輸入框
 	                
 	                if (year > 0) {
 	                    break;
@@ -30,7 +30,7 @@ public class YearCalculator {
 	        while (true) {
 	            if (scanner.hasNextInt()) {
 	                month = scanner.nextInt();
-	                scanner.nextLine(); // 清除輸入緩衝區
+	                scanner.nextLine(); // 清除輸入緩衝區,跳下一個輸入框
 	                
 	                if (month >= 1 && month <= 12) {
 	                    break;
